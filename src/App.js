@@ -64,7 +64,7 @@ export default function App() {
             <h2>
               {product.description} for ${product.price}
             </h2>
-            <img src={shimano} width="200" />
+            <img src={shimano} width="200" alt="fishing-rod" />
             <div ref={v => (paypalRef = v)} />
           </div>
         )}
